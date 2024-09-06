@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f7f7f7;
+    }
+    .form-joinin{
+        width: 70%;
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .form-control{
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    label{
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: left;
+        font-size: 14px;
+        color: #555;
+    }
+    button{
+        width: 70%;
+        height: 50px;
+        padding: 10px;
+        background-color: orange;
+        color: black;
+        border: none;
+        margin-top: 15px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: red;
+    }
+    .basketball{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+</style>
+<body>
+    <main class="form-joinin">
+        <form>
+          <img class="basketball" src="basketball.png" alt="" width="72" height="57">
+          <h1>Please join in!</h1>
+      
+          <div class="form">
+            <label for="floatingEmail">Email address</label>
+            <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+          </div>
+          <div class="form">
+            <label for="floatingPassword">Password</label>
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          </div>
+          <button class="" type="submit">Join in</button>
+        </form>
+      </main>
+</body>
+</html>
