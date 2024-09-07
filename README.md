@@ -5,7 +5,7 @@
 
 Self-Check items
 ○ vscode 와 frontend 관련 extension을 3개 이상 설치했는가?
-dP
+네
 ○ 자신이 netlify에 만든 사이트의 URL은 무엇인가?
 https://22100718osshw1.netlify.app/
 ○ 다음 페이지를 개발하였는가? 각 페이지의 URL은 무엇인가?
